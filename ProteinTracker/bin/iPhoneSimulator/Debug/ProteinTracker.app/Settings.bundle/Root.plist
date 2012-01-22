@@ -5,6 +5,18 @@
 	<key>PreferenceSpecifiers</key>
 	<array>
 		<dict>
+			<key>DefaultValue</key>
+			<string>100</string>
+			<key>Key</key>
+			<string>goal</string>
+			<key>KeyboardType</key>
+			<string>NumberPad</string>
+			<key>Title</key>
+			<string>Goal</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+		</dict>
+		<dict>
 			<key>Title</key>
 			<string>Debug Settings</string>
 			<key>Type</key>

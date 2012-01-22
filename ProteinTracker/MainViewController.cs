@@ -24,6 +24,13 @@ namespace ProteinTracker
 			TotalProtein.Text = "Entering Text";
 		}
 		
+		public override void ViewWillAppear (bool animated)
+		{
+			Goal.Text = NSUserDefaults.StandardUserDefaults.StringForKey("goal") + " grams";
+			base.ViewWillAppear (animated);
+			
+		}
+		
 		public override bool ShouldAutorotateToInterfaceOrientation (UIInterfaceOrientation toInterfaceOrientation)
 		{
 			// Return true for supported orientations

@@ -81,4 +81,10 @@
     <InterfaceDefinition Include="FlipsideViewController.xib" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Settings.bundle\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Settings.bundle\Root.plist" />
+  </ItemGroup>
 </Project>

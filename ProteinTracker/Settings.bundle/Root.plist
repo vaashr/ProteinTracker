@@ -1,0 +1,11 @@
+{
+	PreferenceSpecifiers = (
+		{
+			DefaultValue = 100;
+			KeyboardType = NumberPad;
+			Type = PSTextFieldSpecifier;
+			Title = Goal;
+			Key = goal;
+		},
+	);
+}

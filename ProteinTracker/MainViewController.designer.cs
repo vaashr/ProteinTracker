@@ -17,6 +17,9 @@ namespace ProteinTracker
 		[Outlet]
 		MonoTouch.UIKit.UITextField EnteredProtein { get; set; }
 
+		[Outlet]
+		MonoTouch.UIKit.UILabel Goal { get; set; }
+
 		[Action ("showInfo:")]
 		partial void showInfo (MonoTouch.Foundation.NSObject sender);
 
