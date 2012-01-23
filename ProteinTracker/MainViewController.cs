@@ -11,12 +11,17 @@ namespace ProteinTracker
 			// Custom initialization
 		}
 		
+		public MainViewController(IntPtr p){
+		
+		}
+		
 		public override void ViewDidLoad ()
 		{
 			base.ViewDidLoad ();
 			TotalProtein.Text = "200 grams";
 			EnteredProtein.EditingDidBegin += EnteredDidBegin;
 			//any additional setup after loading the view, typically from a nib.
+			
 		}
 
 		void EnteredDidBegin (object sender, EventArgs e)
