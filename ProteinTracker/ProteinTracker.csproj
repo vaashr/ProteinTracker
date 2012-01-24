@@ -75,10 +75,15 @@
     <Compile Include="FlipsideViewController.designer.cs">
       <DependentUpon>FlipsideViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="HistoryViewController.cs" />
+    <Compile Include="HistoryViewController.designer.cs">
+      <DependentUpon>HistoryViewController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainViewController.xib" />
     <InterfaceDefinition Include="FlipsideViewController.xib" />
+    <InterfaceDefinition Include="HistoryViewController.xib" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

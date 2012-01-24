@@ -16,7 +16,9 @@ namespace ProteinTracker
 		// class-level declarations
 		UIWindow window;
 		//MainViewController mainViewController;
+		//UITabBarController tabController;
 		UINavigationController NavigationController;
+		//UITabBarController TabController;
 
 		//
 		// This method is invoked when the application has loaded and is ready to run. In this 
@@ -58,8 +60,14 @@ namespace ProteinTracker
 			//load defaults
 			RegisterDefaultsFromSettingsBundle();
 			this.NavigationController = new UINavigationController();
-			MainViewController mainviewcontroller = new MainViewController();mainviewcontroller.Title = "Main View";
+			MainViewController mainviewcontroller = new MainViewController();
+			//HistoryViewController historyviewcontroller = new HistoryViewController();
 			NavigationController.PushViewController(mainviewcontroller, false);
+			//this.TabController = new UITabBarController();
+			//TabController.ViewControllers = new UIViewController[] {
+			//	NavigationController,
+			//	historyviewcontroller
+			//};
 			window.RootViewController = this.NavigationController;
 			window.MakeKeyAndVisible ();
 			

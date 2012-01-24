@@ -1,2 +1,16 @@
 Socket error while connecting to 127.0.0.1 on port 10001: Connection refused
-Terminating in response to SpringBoard's termination.
+
+Unhandled Exception: MonoTouch.Foundation.MonoTouchException: Objective-C exception thrown.  Name: NSInternalInconsistencyException Reason: -[UIViewController _loadViewFromNibNamed:bundle:] loaded the "MainViewController" nib but the view outlet was not set.
+  at (wrapper managed-to-native) MonoTouch.ObjCRuntime.Messaging:void_objc_msgSend (intptr,intptr)
+  at MonoTouch.UIKit.UIWindow.MakeKeyAndVisible () [0x0000b] in /Developer/MonoTouch/Source/monotouch/src/UIKit/UIWindow.g.cs:105 
+  at ProteinTracker.AppDelegate.FinishedLaunching (MonoTouch.UIKit.UIApplication app, MonoTouch.Foundation.NSDictionary options) [0x00049] in /Users/rfurlonge/Documents/MonoTouch Projects/ProteinTracker/ProteinTracker/AppDelegate.cs:72 
+  at (wrapper managed-to-native) MonoTouch.UIKit.UIApplication:UIApplicationMain (int,string[],intptr,intptr)
+  at MonoTouch.UIKit.UIApplication.Main (System.String[] args, System.String principalClassName, System.String delegateClassName) [0x00042] in /Developer/MonoTouch/Source/monotouch/src/UIKit/UIApplication.cs:29 
+  at ProteinTracker.Application.Main (System.String[] args) [0x00000] in /Users/rfurlonge/Documents/MonoTouch Projects/ProteinTracker/ProteinTracker/Main.cs:16 
+[ERROR] FATAL UNHANDLED EXCEPTION: MonoTouch.Foundation.MonoTouchException: Objective-C exception thrown.  Name: NSInternalInconsistencyException Reason: -[UIViewController _loadViewFromNibNamed:bundle:] loaded the "MainViewController" nib but the view outlet was not set.
+  at (wrapper managed-to-native) MonoTouch.ObjCRuntime.Messaging:void_objc_msgSend (intptr,intptr)
+  at MonoTouch.UIKit.UIWindow.MakeKeyAndVisible () [0x0000b] in /Developer/MonoTouch/Source/monotouch/src/UIKit/UIWindow.g.cs:105 
+  at ProteinTracker.AppDelegate.FinishedLaunching (MonoTouch.UIKit.UIApplication app, MonoTouch.Foundation.NSDictionary options) [0x00049] in /Users/rfurlonge/Documents/MonoTouch Projects/ProteinTracker/ProteinTracker/AppDelegate.cs:72 
+  at (wrapper managed-to-native) MonoTouch.UIKit.UIApplication:UIApplicationMain (int,string[],intptr,intptr)
+  at MonoTouch.UIKit.UIApplication.Main (System.String[] args, System.String principalClassName, System.String delegateClassName) [0x00042] in /Developer/MonoTouch/Source/monotouch/src/UIKit/UIApplication.cs:29 
+  at ProteinTracker.Application.Main (System.String[] args) [0x00000] in /Users/rfurlonge/Documents/MonoTouch Projects/ProteinTracker/ProteinTracker/Main.cs:16 

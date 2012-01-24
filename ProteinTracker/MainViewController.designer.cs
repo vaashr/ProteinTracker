@@ -20,6 +20,9 @@ namespace ProteinTracker
 		[Outlet]
 		MonoTouch.UIKit.UILabel Goal { get; set; }
 
+		[Outlet]
+		MonoTouch.UIKit.UIButton History { get; set; }
+
 		[Action ("showInfo:")]
 		partial void showInfo (MonoTouch.Foundation.NSObject sender);
 

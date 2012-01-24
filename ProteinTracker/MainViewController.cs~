@@ -6,6 +6,7 @@ namespace ProteinTracker
 {
 	public partial class MainViewController : UIViewController
 	{
+		HistoryViewController history;
 		public MainViewController () : base ("MainViewController", null)
 		{
 			// Custom initialization
@@ -20,8 +21,17 @@ namespace ProteinTracker
 			base.ViewDidLoad ();
 			TotalProtein.Text = "200 grams";
 			EnteredProtein.EditingDidBegin += EnteredDidBegin;
+			History.TouchUpInside += HandleHistoryTouchUpInside;
 			//any additional setup after loading the view, typically from a nib.
 			
+		}
+
+		void HandleHistoryTouchUpInside (object sender, EventArgs e)
+		{
+			if (this.history==null) {
+				this.history = new HistoryViewController();
+			}
+			this.NavigationController.PushViewController(this.history, true);
 		}
 
 		void EnteredDidBegin (object sender, EventArgs e)

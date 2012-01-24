@@ -1,0 +1,251 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		255466000000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41113E800000000000000000 /* CoreGraphics.framework */; };
+		3EC5F4000000000000000000 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A82CC800000000000000000 /* MainViewController.xib */; };
+		4B7EBB000000000000000000 /* FlipsideViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 673B93800000000000000000 /* FlipsideViewController.h */; };
+		51DB1E800000000000000000 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D97F7000000000000000000 /* MainViewController.m */; };
+		5CCE17000000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788AEF800000000000000000 /* Foundation.framework */; };
+		60DF30000000000000000000 /* HistoryViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 7C9C08800000000000000000 /* HistoryViewController.h */; };
+		74C430000000000000000000 /* FlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23091B800000000000000000 /* FlipsideViewController.xib */; };
+		82F86C000000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB544800000000000000000 /* AppDelegate.m */; };
+		9447C8000000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B004A0800000000000000000 /* UIKit.framework */; };
+		9858E1000000000000000000 /* HistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B415B9800000000000000000 /* HistoryViewController.xib */; };
+		C0CE80800000000000000000 /* MainViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = DC8B59000000000000000000 /* MainViewController.h */; };
+		CFD292000000000000000000 /* Root.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB8F6A800000000000000000 /* Root.plist */; };
+		D62EF5800000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = F1EBCE000000000000000000 /* AppDelegate.h */; };
+		DA8A68000000000000000000 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29657F000000000000000000 /* HistoryViewController.m */; };
+		F84831800000000000000000 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14050A000000000000000000 /* FlipsideViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14050A000000000000000000 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		23091B800000000000000000 /* FlipsideViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideViewController.xib; sourceTree = "<group>"; };
+		29657F000000000000000000 /* HistoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		33B2A0000000000000000000 /* ProteinTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProteinTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41113E800000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5A82CC800000000000000000 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		673B93800000000000000000 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		6D97F7000000000000000000 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		788AEF800000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7C9C08800000000000000000 /* HistoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		9EB544800000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B004A0800000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B415B9800000000000000000 /* HistoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryViewController.xib; sourceTree = "<group>"; };
+		DC8B59000000000000000000 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		EB8F6A800000000000000000 /* Root.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Root.plist; path = Settings.bundle/Root.plist; sourceTree = "<group>"; };
+		F1EBCE000000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5671B3800000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9447C8000000000000000000 /* UIKit.framework in Frameworks */,
+				5CCE17000000000000000000 /* Foundation.framework in Frameworks */,
+				255466000000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		171D8A000000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33B2A0000000000000000000 /* ProteinTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A5413800000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				C3E700800000000000000000 /* ProteinTracker */,
+				BD8A9D000000000000000000 /* Frameworks */,
+				171D8A000000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A39393000000000000000000 /* Settings.bundle */ = {
+			isa = PBXGroup;
+			children = (
+				EB8F6A800000000000000000 /* Root.plist */,
+			);
+			name = Settings.bundle;
+			sourceTree = "<group>";
+		};
+		A6C1C4C00000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EB544800000000000000000 /* AppDelegate.m */,
+				14050A000000000000000000 /* FlipsideViewController.m */,
+				29657F000000000000000000 /* HistoryViewController.m */,
+				6D97F7000000000000000000 /* MainViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD8A9D000000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B004A0800000000000000000 /* UIKit.framework */,
+				788AEF800000000000000000 /* Foundation.framework */,
+				41113E800000000000000000 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3E700800000000000000000 /* ProteinTracker */ = {
+			isa = PBXGroup;
+			children = (
+				F1EBCE000000000000000000 /* AppDelegate.h */,
+				673B93800000000000000000 /* FlipsideViewController.h */,
+				23091B800000000000000000 /* FlipsideViewController.xib */,
+				7C9C08800000000000000000 /* HistoryViewController.h */,
+				B415B9800000000000000000 /* HistoryViewController.xib */,
+				DC8B59000000000000000000 /* MainViewController.h */,
+				5A82CC800000000000000000 /* MainViewController.xib */,
+				A39393000000000000000000 /* Settings.bundle */,
+				A6C1C4C00000000000000000 /* Supporting Files */,
+			);
+			name = ProteinTracker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D693E000000000000000000 /* ProteinTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7195C00000000000000000 /* Build configuration list for PBXNativeTarget "ProteinTracker" */;
+			buildPhases = (
+				1EF802800000000000000000 /* Sources */,
+				5671B3800000000000000000 /* Frameworks */,
+				3AB4DB000000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProteinTracker;
+			productName = ProteinTracker;
+			productReference = 33B2A0000000000000000000 /* ProteinTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3A50E000000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 7A3B0C400000000000000000 /* Build configuration list for PBXProject "ProteinTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6A5413800000000000000000;
+			productRefGroup = 171D8A000000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D693E000000000000000000 /* ProteinTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AB4DB000000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC5F4000000000000000000 /* MainViewController.xib in Resources */,
+				74C430000000000000000000 /* FlipsideViewController.xib in Resources */,
+				CFD292000000000000000000 /* Root.plist in Resources */,
+				9858E1000000000000000000 /* HistoryViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EF802800000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60DF30000000000000000000 /* HistoryViewController.h in Sources */,
+				DA8A68000000000000000000 /* HistoryViewController.m in Sources */,
+				D62EF5800000000000000000 /* AppDelegate.h in Sources */,
+				82F86C000000000000000000 /* AppDelegate.m in Sources */,
+				4B7EBB000000000000000000 /* FlipsideViewController.h in Sources */,
+				F84831800000000000000000 /* FlipsideViewController.m in Sources */,
+				C0CE80800000000000000000 /* MainViewController.h in Sources */,
+				51DB1E800000000000000000 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CBC179000000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		E77E51800000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = ProteinTracker;
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A3B0C400000000000000000 /* Build configuration list for PBXProject "ProteinTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBC179000000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		CD7195C00000000000000000 /* Build configuration list for PBXNativeTarget "ProteinTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77E51800000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3A50E000000000000000000 /* Project object */;
+}
